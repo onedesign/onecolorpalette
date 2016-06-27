@@ -1,0 +1,11 @@
+{% includeCssResource "onecolorpalette/css/cp_settings.css" %}
+<a class="ocp_addcolor" href="#">Add Another Color</a>
+<div class="ocp_colors">
+    {% for color in colors %}
+        <div class="ocp_color">
+            <input class="ocp_input" name="colors[]" value="{{ color }}" type="color" />
+            <a class="ocp_delete" href="#">[delete]</a>
+        </div>
+    {% endfor %}
+</div>
+{% includeJsResource "onecolorpalette/js/cp_settings.js" %}

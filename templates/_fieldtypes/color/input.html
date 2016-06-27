@@ -1,0 +1,9 @@
+<select name="{{ name }}">
+    <option value="">None</option>
+    {% for color in colors %}
+        <option style="background-color: {{ color }};" value="{{ color }}" {% if value == color %}selected="selected"{% endif %}>
+            {{ color }}
+        </option>
+    {% endfor %}
+</select>
+
