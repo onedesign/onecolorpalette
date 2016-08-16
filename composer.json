@@ -1,0 +1,16 @@
+{
+    "name": "onedesign/onecolorpalette",
+    "description": "A color selection fieldtype.",
+    "homepage": "https://github.com/onedesign/onecolorpalette",
+    "type": "craft-plugin",
+    "keywords": ["craft","plugin"],
+    "license": "MIT",
+    "authors": [{
+        "name": "One Design Company",
+        "email": "dev+onecolorpalette@onedesigncompany.com",
+        "homepage": "https://www.onedesigncompany.com"
+    }],
+    "require": {
+        
+    }
+}
